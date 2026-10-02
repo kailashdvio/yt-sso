@@ -1,0 +1,16 @@
+# Google OAuth Credentials
+GOOGLE_CLIENT_ID="your_google_client_id_here"
+GOOGLE_CLIENT_SECRET="your_google_client_secret_here"
+GOOGLE_REDIRECT_URI="http://localhost:3000/connector/google-business"
+
+# LinkedIn OAuth Credentials
+LINKEDIN_CLIENT_ID="your_linkedin_client_id_here"
+LINKEDIN_CLIENT_SECRET="your_linkedin_client_secret_here"
+LINKEDIN_REDIRECT_URI="http://localhost:3000/linkedin/callback"
+LINKEDIN_STATE="your_random_csrf_state"
+
+# Airbyte / Google Ads Credentials (if applicable)
+AIRBYTE_CLIENT_ID="your_airbyte_client_id_here"
+AIRBYTE_CLIENT_SECRET="your_airbyte_client_secret_here"
+AIRBYTE_BASE_URL="https://api.airbyte.com/v1/"
+GOOGLE_ADS_DEVELOPER_TOKEN="your_google_ads_developer_token_here"

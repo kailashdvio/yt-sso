@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+fastapi-sso
+requests
+httpx
+python-dotenv
